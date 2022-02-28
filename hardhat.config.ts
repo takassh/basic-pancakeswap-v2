@@ -26,7 +26,7 @@ const config: HardhatUserConfig = {
   solidity: "0.7.6",
   defaultNetwork: "bsc smart testnet",
   networks: {
-    ropsten: {
+    testnet: {
       url: process.env.SERVER_URL,
       accounts: [process.env.PRIVATE_KEY ?? ""],
     },

@@ -15,7 +15,7 @@ async function main() {
 
   // We get the contract to deploy
   const Swap = await ethers.getContractFactory("Swap");
-  const swap = await Swap.deploy("Hello, Hardhat!");
+  const swap = await Swap.deploy();
 
   await swap.deployed();
 
